@@ -15,7 +15,7 @@ def get_sun_times():
     date = datetime.strptime(date_str, "%d %B %Y").date()
 
     # Fixed timezone
-    timezone = "Asia/Kolkata"  # Change if needed
+    timezone = "Asia/Kolkata"  
 
     # Create location object
     city = LocationInfo(name, region, timezone, latitude, longitude)
