@@ -28,7 +28,8 @@ def get_sun_times():
     sunset = s['sunset'].strftime("%I:%M %p")
     day_length = s['sunset'] - s['sunrise']
 
-    print("\nSolar Information")
+    print("\n\tSolar Information\n")
+    print("----------------------------------------\n")
     print(f"Location: {name}, {region}")
     print(f"Date: {date.strftime('%d %B %Y')}")
     print(f"Sunrise: {sunrise}")
